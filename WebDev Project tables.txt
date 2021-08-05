@@ -1,0 +1,38 @@
+	PLAYERS
+playerID - int
+name - string
+handle/ID - string
+age - int
+race(played) - string/int
+nationallity - string/int
+winrate - double/derived
+matches played - int
+team - string
+
+	MATCHES
+matchID-int
+winner - player
+loser - player
+date - date
+map - string
+tournament - tourneyID
+
+	TOURNAMENT
+TourneyID - int
+name - string
+host - string
+mappool - maps
+prizepool - double
+winner - player
+
+	MAP POOL
+MP ID
+mapID
+tournamentID
+
+	MAPS
+MapID- int
+Name - string
+author - string
+firstMatch - date
+lastmatch - date
